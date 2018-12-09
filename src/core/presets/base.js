@@ -82,6 +82,23 @@ import Markdown from "core/components/providers/markdown"
 
 import BaseLayout from "core/components/layouts/base"
 
+// Added for hoppa layout purpose
+import { 
+  HoppaLayout,
+  HoppaAuthContainer,
+  HoppaAuthButton,
+  HoppaAuthModal,
+  HoppaAuthModalBody,
+  HoppaAuthModalOauth2,
+  HoppaOperations,
+  HoppaOperationsHeader,
+  HoppaOperationsContent,
+  HoppaOperationContainer,
+  HoppaOperationContent,
+  HoppaOperationSummary,
+  HoppaOperationAuthButton
+} from "hoppa"
+
 import * as LayoutUtils from "core/components/layout-utils"
 import * as JsonSchemaComponents from "core/json-schema-components"
 
@@ -152,7 +169,22 @@ export default function() {
       DeepLink,
       InfoUrl,
       InfoBasePath,
-      SvgAssets
+      SvgAssets,
+      
+      // Added for hoppa layout purpose
+      HoppaLayout,
+      HoppaAuthContainer,
+      HoppaAuthButton,
+      HoppaAuthModal,
+      HoppaAuthModalBody,
+      HoppaAuthModalOauth2,
+      HoppaOperations,
+      HoppaOperationsHeader,
+      HoppaOperationsContent,
+      HoppaOperationContainer,
+      HoppaOperationContent,
+      HoppaOperationSummary,
+      HoppaOperationAuthButton
     }
   }
 
